@@ -1,0 +1,151 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+.navbar-header{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1.5px rgb(224, 224, 224);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.nav-button{
+
+border: 2px solid rgb(243, 243, 243);
+border-radius: 30px;
+}
+.nav-button:hover{
+  box-shadow: 1px 5.5px 1.5px rgb(224, 224, 224);
+}
+.web-name{
+  color: #ff385c;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.cards .card,.cards img{
+  border-radius: 30px;
+  border: none;
+  width:33rem;
+}
+.title{
+  font-size: 16px;
+}
+.body-text{
+  font-size: 22px;
+  font-weight: bold;
+}
+.button-card{
+   position: relative;
+   top:50%;
+   border-radius: 30px;
+   background-color: white;
+
+}
+.button-card:hover{
+  box-shadow: 1px 0.5px 1.5px rgb(224, 224, 224);
+  background-color: rgb(226, 226, 226);
+
+}
+.cards{
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+.card2{
+  width: 15rem;
+  border: 2px solid rgb(239, 240, 239);
+  
+  border-radius: 10px;
+  background-color: rgb(252, 252, 252);
+}
+
+.card2 img{
+  height:19rem;
+  width: 13rem;
+  border-radius: 10px;
+
+}
+
+.button{
+  display: flex;
+  width:200px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+@media screen and (max-width:700px) {
+  .card,.card img{
+    border-radius: 30px;
+    border: none;
+    width:23rem;
+    height:22rem;
+  }
+  .button-card{
+    width:100px;
+    top:80%;
+    position: absolute;
+    border-radius: 30px;
+    background-color: white;
+   
+ 
+ }
+
+
+ .card2,.card2 img{
+  border-radius: 30px;
+  border: none;
+  width:25rem;
+  
+}
+.button{
+  width: 50px;
+}
+}
+
+
+@media screen and (max-width:500px) {
+  .cards .card,.cards img{
+    border-radius: 30px;
+    border: none;
+    width:23rem;
+    height:22rem;
+  }
+  .button-card{
+    width:100px;
+    top:80%;
+    position: absolute;
+    border-radius: 30px;
+    background-color: white;
+   
+ 
+ }
+
+ .card2,.card2 img{
+  border-radius: 30px;
+  border: none;
+  width:15rem;
+  
+}
+#buttons{
+  width: 100vw;
+}
+}
